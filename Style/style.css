@@ -110,6 +110,7 @@ h4 {
 
 
 #H4 {
+    margin-top: 10px;
     text-align: start;
     width: 100%;
     text-align: center;
@@ -384,6 +385,93 @@ aside {
 
 
 
+/* comdidities */
+
+.comodities{
+    background-image: url(../Images/Padrão-1.png);
+    background-size: 10%;
+    background-color: rgb(22, 68, 62) ;
+    padding: 30px;
+
+    #H4{
+        color: rgb(255, 252, 224);
+ 
+    }
+
+    ul{
+        width: 50%;
+        padding: 20px;
+    }
+
+    img{
+        width: 50%;
+
+    }
+}
+
+
+
+
+/* salao de festas */
+
+.salao{
+    background-image: url(../Images/Padrão-1.png);
+    background-size: 10%;
+    background-color: rgb(22, 68, 62) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 100px 300px;
+
+
+    .bigcard{
+        background-color: rgb(255, 252, 224);
+        padding: 20px;
+        text-align: center;
+        
+        h2{
+            font-size: 38px;
+            font-family: "Lora", serif;
+            color: #333;
+        }
+        
+
+
+
+        ul{
+            text-align: start;
+            font-size: 16px;
+            padding: 0 40px;
+
+
+            li{
+                color: #333;
+
+            }
+        }
+
+        p{
+            color: #333;
+            font-size: 16px;
+            text-align: center;
+            text-align: center;
+        }
+
+        .flex{
+            display: flex;
+            text-align: center;
+
+            img{
+                padding: 10px;
+                width: 25%;
+            }
+
+        }
+
+    }
+
+
+}
 
 
 
