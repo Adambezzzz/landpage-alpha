@@ -279,21 +279,21 @@ aside {
 
 
 
-.acabamentos{
+.acabamentos {
     display: flex;
     text-align: center;
 
-    .txt-acabamentos{
+    .txt-acabamentos {
         background-color: rgb(255, 252, 224);
         width: 60%;
         padding: 20px;
 
-        h4{
+        h4 {
             font-size: 20px;
             color: #333;
         }
 
-        li{
+        li {
             font-size: 16px;
             color: #333;
             padding: 5px;
@@ -301,10 +301,10 @@ aside {
 
     }
 
-    aside{
+    aside {
         width: 40%;
 
-        img{
+        img {
             height: 300px;
             width: 200px;
         }
@@ -315,31 +315,31 @@ aside {
 
 
 /* ILUMINACAO */
-.iluminacao{
+.iluminacao {
     background-image: url(../Images/Padrão-1.png);
     background-size: 10%;
-    background-color: rgb(22, 68, 62) ;
+    background-color: rgb(22, 68, 62);
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     padding: 100px 300px;
 
 
-    .bigcard{
+    .bigcard {
         background-color: rgb(255, 252, 224);
         padding: 20px;
         text-align: start;
 
-        li{
+        li {
             color: #333;
         }
 
 
 
-        .flex{
+        .flex {
             display: flex;
 
-            img{
+            img {
                 padding: 10px;
                 width: 33.33%;
             }
@@ -354,27 +354,27 @@ aside {
 
 /* planta */
 
-.planta{
+.planta {
     background-image: url(../Images/Padrão-1.png);
     background-size: 10%;
-    background-color: rgb(22, 68, 62) ;
+    background-color: rgb(22, 68, 62);
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     padding: 100px 300px;
 
-    .bigcardplanta{
+    .bigcardplanta {
         background-color: rgb(255, 252, 224);
         padding: 20px;
         text-align: start;
 
-        h4{
+        h4 {
             font-size: 32px;
             font-family: "Lora", serif;
             margin-top: 10px;
             text-align: end;
         }
-        
+
 
     }
 
@@ -387,23 +387,23 @@ aside {
 
 /* comdidities */
 
-.comodities{
+.comodities {
     background-image: url(../Images/Padrão-1.png);
     background-size: 10%;
-    background-color: rgb(22, 68, 62) ;
+    background-color: rgb(22, 68, 62);
     padding: 30px;
 
-    #H4{
+    #H4 {
         color: rgb(255, 252, 224);
- 
+
     }
 
-    ul{
+    ul {
         width: 50%;
         padding: 20px;
     }
 
-    img{
+    img {
         width: 50%;
 
     }
@@ -414,54 +414,54 @@ aside {
 
 /* salao de festas */
 
-.salao{
+.salao {
     background-image: url(../Images/Padrão-1.png);
     background-size: 10%;
-    background-color: rgb(22, 68, 62) ;
+    background-color: rgb(22, 68, 62);
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     padding: 100px 300px;
 
 
-    .bigcard{
+    .bigcard {
         background-color: rgb(255, 252, 224);
         padding: 20px;
         text-align: center;
-        
-        h2{
+
+        h2 {
             font-size: 38px;
             font-family: "Lora", serif;
             color: #333;
         }
-        
 
 
 
-        ul{
+
+        ul {
             text-align: start;
             font-size: 16px;
             padding: 0 40px;
 
 
-            li{
+            li {
                 color: #333;
 
             }
         }
 
-        p{
+        p {
             color: #333;
             font-size: 16px;
             text-align: center;
             text-align: center;
         }
 
-        .flex{
+        .flex {
             display: flex;
             text-align: center;
 
-            img{
+            img {
                 padding: 10px;
                 width: 25%;
             }
@@ -472,6 +472,67 @@ aside {
 
 
 }
+
+
+/* INV ESTIMETNOS SECTIONB */
+
+.bigcards {
+
+    background-color: rgb(255, 252, 224);
+    padding: 20px;
+    text-align: start;
+
+    h2 {
+        font-size: 38px;
+        font-family: "Lora", serif;
+        color: #333;
+    }
+
+
+
+
+    ul {
+        text-align: start;
+        font-size: 16px;
+        padding: 0 40px;
+
+
+        li {
+            color: #333;
+
+        }
+    }
+
+    p {
+        color: #333;
+        font-size: 16px;
+        text-align: start;
+        margin: -1rem 0;
+    }
+
+
+    h4{
+        font-size: 28px;
+        text-align: start;
+        color: #333;
+        margin: -1rem 0 1rem 0;
+    }
+
+    .flex {
+        display: flex;
+        text-align: start;
+
+        img {
+            padding: 10px;
+            width: 25%;
+        }
+
+    }
+
+}
+
+
+
 
 
 
