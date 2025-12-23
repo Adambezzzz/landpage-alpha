@@ -651,7 +651,13 @@ form textarea {
    .alto-pronto{
     flex-direction: column;
     text-align: center;
+    padding: 2rem;
    }
    
+   *{
+    margin: 0;
+    padding: 0;
+
+   }
 
 }
