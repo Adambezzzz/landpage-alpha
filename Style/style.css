@@ -19,8 +19,8 @@
 
 header {
     text-align: center;
-    box-shadow: 0 0 8px solid #333;
-    padding: 20px;
+    box-shadow: 0 0 0.5rem solid #333;
+    padding: 1.25rem;
     background-color: rgb(255, 252, 224);
 
 
@@ -33,17 +33,17 @@ header {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 46.875rem;
     background-color: rgb(0, 0, 0);
 
 }
 
 .txt {
     text-align: start;
-    padding: 30px;
-    padding-left: 60px;
+    padding: 1.875rem;
+    padding-left: 3.75rem;
     background-color: rgba(0, 0, 0, 0.26);
-    height: 750px;
+    height: 46.875rem;
 }
 
 h3 {
@@ -57,18 +57,18 @@ p {
 }
 
 button {
-    margin-left: 10px;
-    padding: 15px;
+    margin-left: 0.625rem;
+    padding: 0.938rem;
     background-color: #aa0000;
     border: none;
-    margin-top: 10px;
+    margin-top: 0.625rem;
     transition: .4s;
 
 }
 
 button:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 8px #333;
+    box-shadow: 0 0 0.5rem #333;
 }
 
 a {
@@ -89,7 +89,7 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: rgb(255, 252, 224);
 
 }
@@ -101,16 +101,16 @@ a {
 
 h4 {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
     /* color: #aa0000; */
     color: #333;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 
 
 #H4 {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     text-align: start;
     width: 100%;
     text-align: center;
@@ -124,8 +124,8 @@ h4 {
     text-align: center;
     color: #f0f0f0;
     background-color: rgb(19, 17, 17);
-    padding: 15px 10px;
-    margin: 0 10px;
+    padding: 0.938rem 0.625rem;
+    margin: 0 0.625rem;
 
 }
 
@@ -137,7 +137,7 @@ h4 {
         display: flex;
         justify-content: center;
         width: 32%;
-        margin-top: 10px;
+        margin-top: 0.625rem;
 
 
     }
@@ -153,14 +153,14 @@ h4 {
 }
 
 aside {
-    padding: 20px 50px;
+    padding: 1.25rem 3.125rem;
     width: 25%;
     background-color: rgb(22, 68, 62);
 
 }
 
 .txt-alto {
-    padding: 20px;
+    padding: 1.25rem;
     width: 75%;
     color: #333;
     text-align: center;
@@ -189,7 +189,7 @@ aside {
     p {
         color: #333;
         font-size: 16px;
-        padding: 0 70px 20px;
+        padding: 0 4.375rem 1.25rem;
     }
 
 
@@ -212,10 +212,10 @@ aside {
 
     .header-oferece {
 
-        padding: 10px;
+        padding: 0.625rem;
 
         background-color: rgb(22, 68, 62);
-        height: 100px;
+        height: 6.25rem;
 
         h2 {
             color: rgb(255, 247, 177);
@@ -240,20 +240,20 @@ aside {
 
     .txt-oferece {
         width: 60%;
-        padding: 20px;
-        border-radius: 5px;
+        padding: 1.25rem;
+        border-radius: 0.313rem;
 
 
 
         li {
             font-size: 16px;
             color: #333;
-            padding: 5px;
+            padding: 0.313rem;
         }
     }
 
     .img-oferece {
-        padding: 10px 50px;
+        padding: 0.625rem 3.125rem;
         background-color: rgb(22, 68, 62);
         width: 40%;
 
@@ -286,7 +286,7 @@ aside {
     .txt-acabamentos {
         background-color: rgb(255, 252, 224);
         width: 60%;
-        padding: 20px;
+        padding: 1.25rem;
 
         h4 {
             font-size: 20px;
@@ -296,7 +296,7 @@ aside {
         li {
             font-size: 16px;
             color: #333;
-            padding: 5px;
+            padding: 0.313rem;
         }
 
     }
@@ -305,8 +305,8 @@ aside {
         width: 40%;
 
         img {
-            height: 300px;
-            width: 200px;
+            height: 18.75rem;
+            width: 12.5rem;
         }
     }
 }
@@ -316,18 +316,18 @@ aside {
 
 /* ILUMINACAO */
 .iluminacao {
-    background-image: url(../Images/Padrão-1.png);
+    
     background-size: 10%;
     background-color: rgb(22, 68, 62);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 300px;
+    padding: 6.25rem 18.75rem;
 
 
     .bigcard {
         background-color: rgb(255, 252, 224);
-        padding: 20px;
+        padding: 1.25rem;
         text-align: start;
 
         li {
@@ -340,7 +340,7 @@ aside {
             display: flex;
 
             img {
-                padding: 10px;
+                padding: 0.625rem;
                 width: 33.33%;
             }
 
@@ -355,23 +355,21 @@ aside {
 /* planta */
 
 .planta {
-    background-image: url(../Images/Padrão-1.png);
     background-size: 10%;
     background-color: rgb(22, 68, 62);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 300px;
-
+    padding: 6.25rem 18.75rem;
     .bigcardplanta {
         background-color: rgb(255, 252, 224);
-        padding: 20px;
+        padding: 1.25rem;
         text-align: start;
 
         h4 {
             font-size: 32px;
             font-family: "Lora", serif;
-            margin-top: 10px;
+            margin-top: 0.625rem;
             text-align: end;
         }
 
@@ -388,10 +386,9 @@ aside {
 /* comdidities */
 
 .comodities {
-    background-image: url(../Images/Padrão-1.png);
     background-size: 10%;
     background-color: rgb(22, 68, 62);
-    padding: 30px;
+    padding: 1.875rem;
 
     #H4 {
         color: rgb(255, 252, 224);
@@ -400,7 +397,7 @@ aside {
 
     ul {
         width: 50%;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     img {
@@ -415,18 +412,17 @@ aside {
 /* salao de festas */
 
 .salao {
-    background-image: url(../Images/Padrão-1.png);
     background-size: 10%;
     background-color: rgb(22, 68, 62);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 300px;
+    padding: 6.25rem 18.75rem;
 
 
     .bigcard {
         background-color: rgb(255, 252, 224);
-        padding: 20px;
+        padding: 1.25rem;
         text-align: center;
 
         h2 {
@@ -441,7 +437,7 @@ aside {
         ul {
             text-align: start;
             font-size: 16px;
-            padding: 0 40px;
+            padding: 0 2.5rem;
 
 
             li {
@@ -462,7 +458,7 @@ aside {
             text-align: center;
 
             img {
-                padding: 10px;
+                padding: 0.625rem;
                 width: 25%;
             }
 
@@ -479,7 +475,7 @@ aside {
 .bigcards {
 
     background-color: rgb(255, 252, 224);
-    padding: 20px;
+    padding: 1.25rem;
     text-align: start;
 
     h2 {
@@ -494,7 +490,7 @@ aside {
     ul {
         text-align: start;
         font-size: 16px;
-        padding: 0 40px;
+        padding: 0 2.5rem;
 
 
         li {
@@ -523,7 +519,7 @@ aside {
         text-align: start;
 
         img {
-            padding: 10px;
+            padding: 0.625rem;
             width: 25%;
         }
 
@@ -556,35 +552,35 @@ aside {
 
 footer {
     background-color: #aa0000;
-    padding: 30px;
+    padding: 1.875rem;
     text-align: center;
 
 }
 
 form {
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 form input {
-    padding: 5px;
+    padding: 0.313rem;
     color: #333;
     border: none;
-    margin-top: 10px;
+    margin-top: 0.313rem;
     width: 20%;
 
 
 }
 
 form label {
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 form textarea {
-    padding: 5px;
+    padding: 0.313rem;
     resize: none;
     color: #333;
-    height: 100px;
+    height: 6.25rem;
     width: 20%;
 }
 
@@ -592,8 +588,70 @@ form textarea {
 .iframe {
     text-align: center;
     background-color: #f0f0f0;
-    padding: 20px;
+    padding: 1.25rem;
     width: 50%;
 }
 
 /* FOOTER FIM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tentasr responsividad3e  */
+
+
+
+
+
+
+/* - RESPONSIVIDADE - */
+
+/* ===============================
+      RESPONSIVIDADE - BREAKPOINTS
+================================== */
+
+/* ----------- 1200px ----------- */
+@media (max-width: 1200px) {
+
+   
+
+}
+
+/* ----------- 992px (TABLET LANDSCAPE) ----------- */
+@media (max-width: 992px) {
+
+   
+
+}
+
+/* ----------- 768px (TABLET PORTRAIT) ----------- */
+@media (max-width: 768px) {
+
+    
+}
+
+/* ----------- 576px (CELULARES) ----------- */
+@media (max-width: 576px) {
+
+   .txt {
+    text-align: center;
+   }
+   
+   .alto-pronto{
+    flex-direction: column;
+    text-align: center;
+   }
+   
+
+}
